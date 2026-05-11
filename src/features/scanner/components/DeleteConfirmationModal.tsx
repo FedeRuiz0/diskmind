@@ -1,6 +1,6 @@
 import { AlertTriangle, Trash2 } from "lucide-react";
 
-import { formatBytes } from "@features/scanner/lib/formatters";
+import { formatBytes } from "@lib/formatters";
 import type { ScannedFile } from "@shared/types/backend";
 import { Button } from "@shared/ui/button";
 

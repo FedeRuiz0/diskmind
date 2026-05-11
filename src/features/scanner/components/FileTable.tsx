@@ -1,6 +1,6 @@
 import { Trash2 } from "lucide-react";
 
-import { formatBytes, formatDate } from "@features/scanner/lib/formatters";
+import { formatBytes, formatDate } from "@lib/formatters";
 import type { ScannedFile, SafetyClass } from "@shared/types/backend";
 import { Badge } from "@shared/ui/badge";
 import { Button } from "@shared/ui/button";

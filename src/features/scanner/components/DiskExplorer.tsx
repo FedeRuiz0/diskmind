@@ -5,7 +5,7 @@ import { DeleteConfirmationModal } from "@features/scanner/components/DeleteConf
 import { DriveSelector } from "@features/scanner/components/DriveSelector";
 import { FileTable } from "@features/scanner/components/FileTable";
 import { ScanControls } from "@features/scanner/components/ScanControls";
-import { formatBytes } from "@features/scanner/lib/formatters";
+import { formatBytes } from "@lib/formatters";
 import { useScanStore } from "@features/scanner/store/useScanStore";
 import { ThemeToggle } from "@features/settings/components/ThemeToggle";
 import type { ScannedFile } from "@shared/types/backend";

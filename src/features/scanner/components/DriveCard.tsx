@@ -1,6 +1,6 @@
 import { HardDrive } from "lucide-react";
 
-import { formatBytes, formatPercent } from "@features/scanner/lib/formatters";
+import { formatBytes, formatPercent } from "@lib/formatters";
 import { cn } from "@lib/utils";
 import type { DriveInfo } from "@shared/types/backend";
 
