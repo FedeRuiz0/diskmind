@@ -57,3 +57,34 @@
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    min-width: 1024px;
+  }
+
+  ::selection {
+    @apply bg-primary/30;
+  }
+
+  ::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-muted-foreground/30;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground/50;
+  }
+}
