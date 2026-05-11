@@ -1,3 +1,6 @@
+mod ai;
+mod safety;
+mod scanner;
 mod system;
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]

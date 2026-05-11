@@ -1,1 +1,5 @@
-node_modules
+src-tauri/target/
+src-tauri/gen/
+*.patch
+*.rej
+node_modules/
